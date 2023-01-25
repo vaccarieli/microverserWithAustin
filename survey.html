@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <title>Survey</title>
+    <link rel="stylesheet"  src="css/style.css"> 
   </head>
   <body>
-    <div>
+    <div class="header-area">
       <header>
         <h1 id="title">freeCodeCamp Survey Form</h1>
         <p id="description">
@@ -12,7 +13,7 @@
         </p>
       </header>
     </div>
-    <form id="survey form">
+    <form id="survey-form">
       <h5>Name</h5>
       <input type="text" placeholder="Enter your name" name="name" id="name" />
       <h5>Email:</h5>
@@ -60,5 +61,7 @@
         <label><input name="prefer" type="checkbox" value="additional">Additional Courses</label>
         <p>Any comments or suggestions?</p>
         <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+          
+        <button id="submit" type="submit" class="submit-button">Submit</button>
   </body>
 </html>
