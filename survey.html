@@ -13,14 +13,21 @@
       </header>
     </div>
     <form id="survey form">
-     <h5> Name</h5>
-      <input type="text" placeholder="Enter your name" name="name" id="name"/>
+      <h5>Name</h5>
+      <input type="text" placeholder="Enter your name" name="name" id="name" />
       <h5>Email:</h5>
-      <input type="email" placeholder="Enter your email" id="email"/>
-
-
-
-
-    </form> 
+      <input type="email" placeholder="Enter your email" id="email" />
+      <h5>Age (optional)</h5>
+      <input type="text" placeholder="Age" name="age" id="age" />
+      <h5>Which option best describes your current role?</h5>
+      <select id="dropdown" name="role">
+        <option disabled selected value>Select current role</option>
+        <option value="student">Student</option>
+        <option value="full Time Job">Full Time Job</option>
+        <option value="full-time-learner">Full Time Learner</option>
+        <option value="prefer-not-to-say">Prefer Not To Say</option>
+        <option value="-other">Other</option>
+      </select>
+    </form>
   </body>
 </html>
